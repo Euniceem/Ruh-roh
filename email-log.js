@@ -15,7 +15,7 @@ const moduleEmails = (function () {
     }
     return obj
   }, {});
-  console.log(duplicateEmails)
+
   return {
     duplicateEmails: duplicateEmails
   };
@@ -23,19 +23,3 @@ const moduleEmails = (function () {
 })();
 
 
-
-
-
-
-
-
-// var newItem = prev.find(function (i) {
-  //   console.log(i)
-  //   return i.allEmails === item.allEmails;
-  // });
-  // if (newItem) {
-  //   Object.assign(newItem, item);
-  // }
-  // else {
-  //   prev.push(item);
-  // }// return prev;
